@@ -1,0 +1,106 @@
+
+html {
+		background-color: #00FFFF;
+}
+
+body {
+		width: 75%;
+		margin: 0 auto;
+
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+		background-color: white;
+}
+
+#burger_beauty {
+		display: block;
+		margin: auto;
+}
+
+h1 {
+		text-align: center;
+		font-family: sans-serif;
+		font-size: 30px;
+		margin: 20px;
+}
+
+h2 {
+		text-align: center;
+		font-family: sans-serif;
+		font-size: 40px;
+		margin: 10px;
+}
+
+#victims {
+		text-align: center;
+}
+
+.burgerVictims {
+		text-align: center;
+}
+
+.burgerAvailable {
+		text-align: center;
+		font-family: sans-serif;
+		font-weight: normal;
+		font-size: 20px;
+
+		border-radius: 25px;
+		width: 200px;
+		margin: 10px;
+		padding: 10px;
+		background-color: #b7ff94;
+		border: none;
+}
+
+.burgerAvailable:hover {
+		background-color: #81ff94;
+}
+
+#devoured {
+		text-align: center;
+		position: center;
+}
+
+.eatenBurger {
+		text-align: center;
+		width: 100%;
+}
+
+.burgerEaten {
+		text-align: center;
+		font-family: sans-serif;
+		font-weight: normal;
+		font-size: 20px;
+
+		border-radius: 25px;
+		width: 200px;
+		margin: 10px;
+		padding: 10px;
+		background-color: #ffd1c9;
+		border: none;
+}
+
+.burgerEaten:hover {
+		background-color: purple;
+}
+
+.formContainer {
+		background-color: orange;
+}
+
+#name {
+		font-family: sans-serif;
+		font-size: 20px;
+		margin: 10px;
+}
+
+.addBurgerButton:active {
+		background-color: #FFC04C;
+}
+
+.burgerFooter {
+		background-color: #008B8B;
+		padding: 20px 0;
+}
